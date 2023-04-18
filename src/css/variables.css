@@ -1,0 +1,8 @@
+:root {
+    --primary-color: hsl(256, 26%, 20%);
+    --secundary-color: hsl(216, 30%, 68%);
+
+    --primary-neutral: hsl(270, 9%, 17%);
+    --secundary-neutral: hsl(273, 4%, 51%);
+    --tertiary-neutral: hsl(0, 0%, 98%);
+}
