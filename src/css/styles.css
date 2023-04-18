@@ -1,7 +1,6 @@
 header {
     width: 100%;
     height: 80px;
-    background-color: cadetblue;
     display: flex;
     /* justify-content: space-between; */
     justify-content: space-around;
@@ -17,4 +16,31 @@ header {
 .list {
     display: flex;
     gap: 25px;
+}
+
+.hero-container {
+    width: 540px;
+    /* height: 304px; */
+    color: var(--tertiary-neutral);
+    background-color: brown;
+}
+
+.title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 72px;
+}
+
+.description-hero {
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.btn-hero {
+    border: 1px solid var(--tertiary-neutral);
+    color: var(--tertiary-neutral);
+    width: 146px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 24px;
 }
