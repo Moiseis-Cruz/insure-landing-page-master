@@ -8,14 +8,38 @@ header {
     /* padding: 0 168px; */
 }
 
-.logo-header {
+header .logo-header {
     width: 111px;
     height: auto;
 }
 
-.list {
+header .list {
     display: flex;
+    align-items: center;
     gap: 25px;
+}
+
+header .list a {
+    color: var(--secundary-neutral);
+    font-weight: 700;
+}
+
+header .list a:active {
+    color: var(--primary-neutral);
+}
+
+header .list .btn-header {
+    border: 1px solid var(--primary-neutral);
+    color: var(--primary-neutral);
+    width: 146px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.list .btn-header:active {
+    background-color: var(--primary-neutral);
+    color: var(--tertiary-neutral);
 }
 
 .hero-container {
