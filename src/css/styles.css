@@ -83,3 +83,39 @@ main {
     background-color: var(--tertiary-neutral);
     color: var(--primary-neutral);
 }
+
+.about {
+    background-color: red;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-about {
+    color: #2C2830;
+    width: 1110px;
+    background-color: brown;
+}
+
+.about .container-about .subtitle {
+    background-color: burlywood;
+    font: 400 72px 'DM Serif Display', serif;
+    letter-spacing: -1px;
+    padding-top: 64px;
+}
+
+.list-container-about {
+    background-color: cadetblue;
+    margin-top: 96px;
+    display: flex;
+    gap: 30px;
+}
+
+.list-container-about li h3 {
+    font: 400 28px 'DM Serif Display', serif;
+}
+
+.list-container-about li p {
+    color: var(--secundary-neutral);
+}
