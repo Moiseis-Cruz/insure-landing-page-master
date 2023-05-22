@@ -21,3 +21,7 @@ a {
     color: #000000;
     display: inline-block;
 }
+
+hr {
+    width: 150px;
+}
