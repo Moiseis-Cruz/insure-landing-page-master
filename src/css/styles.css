@@ -2,10 +2,8 @@ header {
     width: 100%;
     height: 80px;
     display: flex;
-    /* justify-content: space-between; */
     justify-content: space-around;
     align-items: center;
-    /* padding: 0 168px; */
 }
 
 header .logo-header {
@@ -42,16 +40,26 @@ header .list .btn-header {
     color: var(--tertiary-neutral);
 }
 
+main {
+    background: url(../images/bg-pattern-intro-left-desktop.svg) no-repeat left -503px top 414px/697px 649px, url(../images/bg-pattern-intro-right-desktop.svg) no-repeat right -262px top -137px/649px 697px,linear-gradient(#2D2641 600px, #ffffff 600px);
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding-top: 105px;
+}
+
 .hero-container {
     width: 540px;
-    /* height: 304px; */
     color: var(--tertiary-neutral);
-    background-color: brown;
 }
 
 .title {
-    font-family: 'DM Serif Display', serif;
-    font-size: 72px;
+    font: 400 72px 'DM Serif Display', serif;
+    line-height: 64px;
+    letter-spacing: -1px;
+    margin-top: 63px;
 }
 
 .description-hero {
@@ -64,7 +72,14 @@ header .list .btn-header {
     color: var(--tertiary-neutral);
     width: 146px;
     height: 40px;
-    text-align: center;
-    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 24px;
+    font: 700 13px 'Karla', sans-serif;
+}
+
+.btn-hero:active {
+    background-color: var(--tertiary-neutral);
+    color: var(--primary-neutral);
 }
