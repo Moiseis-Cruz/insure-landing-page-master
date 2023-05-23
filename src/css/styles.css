@@ -85,7 +85,6 @@ main {
 }
 
 .about {
-    background-color: red;
     margin-top: 150px;
     display: flex;
     flex-direction: column;
@@ -95,27 +94,62 @@ main {
 .container-about {
     color: #2C2830;
     width: 1110px;
-    background-color: brown;
 }
 
 .about .container-about .subtitle {
-    background-color: burlywood;
     font: 400 72px 'DM Serif Display', serif;
     letter-spacing: -1px;
     padding-top: 64px;
 }
 
 .list-container-about {
-    background-color: cadetblue;
     margin-top: 96px;
     display: flex;
     gap: 30px;
 }
 
+.list-container-about li {
+    width: 350px;
+}
+
 .list-container-about li h3 {
     font: 400 28px 'DM Serif Display', serif;
+    margin-top: 32px;
 }
 
 .list-container-about li p {
     color: var(--secundary-neutral);
+    margin-top: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.teste {
+    background: var(--primary-color) url(../images/bg-pattern-how-we-work-desktop.svg) no-repeat right;
+    width: 1110px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 158px;
+    gap: 314px;
+}
+
+.teste .subtitle {
+    color: #ffffff;
+    font: 400 56px 'DM Serif Display', serif;
+    line-height: 56px;
+}
+
+.teste .btn-about {
+    border: 1.5px solid ;
+    width: 160px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
 }
