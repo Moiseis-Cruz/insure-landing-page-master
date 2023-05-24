@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+    header {
+        padding: auto 24px;
+    }
+
+    main {
+        background: url(../images/bg-pattern-intro-left-desktop.svg) no-repeat left -503px top 414px/697px 649px, url(../images/bg-pattern-intro-right-desktop.svg) no-repeat right -262px top -137px/649px 697px,linear-gradient(#2D2641 951px, #ffffff 951px);
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        padding-top: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-container {
+        width: 327px;
+        color: var(--tertiary-neutral);
+    }
+
+    .title {
+        font: 400 48px 'DM Serif Display', serif;
+        line-height: 48px;
+        margin-top: 93px;
+    }
+
+    .btn-hero {
+        border: 1px solid var(--tertiary-neutral);
+        color: var(--tertiary-neutral);
+        margin: 32px auto 0;
+        font: 700 13px 'Karla', sans-serif;
+    }
+}
