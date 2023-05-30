@@ -3,6 +3,45 @@
         padding: auto 24px;
     }
 
+    header nav {
+        z-index: 1;
+        /* background: var(--primary-color); */
+    }
+    
+    header nav .menu {
+        background-color: royalblue;
+    }
+    
+    header .menu .to-close {
+        display: block;
+    }
+    
+    header .list {
+        display: none;
+        margin-top: 40px;
+    }
+
+    header .list li a {
+        color: var(--tertiary-neutral);
+    }
+    
+    header input:checked ~ label .to-open {
+        display: block;
+    }
+    
+    header input:checked ~ .list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header input:checked ~ label .to-close {
+        display: none;
+    }
+
+    header .list .btn-header {
+        color: var(--tertiary-neutral);
+    }
+
     main {
         background: url(../images/bg-pattern-intro-left-desktop.svg) no-repeat left -503px top 414px/697px 649px, url(../images/bg-pattern-intro-right-desktop.svg) no-repeat right -262px top -137px/649px 697px,linear-gradient(#2D2641 951px, #ffffff 951px);
     }

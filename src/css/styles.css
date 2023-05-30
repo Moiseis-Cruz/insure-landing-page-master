@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    min-height: 80px;
+    height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -51,42 +51,6 @@ header .list .btn-header {
 .list .btn-header:active {
     background-color: var(--primary-neutral);
     color: var(--tertiary-neutral);
-}
-
-@media (max-width: 768px) {
-    header nav {
-        z-index: 1;
-        background-color: red;
-        position: relative;
-    }
-    
-    header nav .menu {
-        background-color: royalblue;
-    }
-    
-    header .menu .to-close {
-        display: block;
-    }
-    
-    header .list {
-        display: none;
-        margin-top: 40px;
-    }
-    
-    header input:checked ~ label .to-open {
-        display: block;
-        position: absolute;
-        right: 0;
-    }
-    
-    header input:checked ~ .list {
-        display: flex;
-        flex-direction: column;
-    }
-
-    header input:checked ~ label .to-close {
-        display: none;
-    }
 }
 
 main {
@@ -206,34 +170,65 @@ main {
 }
 
 footer {
-    background-color: brown;
+    background: var(--tertiary-neutral) url(../images/bg-pattern-footer-desktop.svg) no-repeat;
     width: 100%;
-    margin-top: 214px;
+    margin-top: 150px;
+    padding: 64px 0;
 }
 
 footer .container-footer {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     max-width: 1110px;
+    margin: auto;
 }
 
 footer .container-footer .content-footer {
-    background-color: burlywood;
+    /* background-color: burlywood; */
     display: flex;
     justify-content: space-between;
 }
 
 footer .container-footer .content-footer .redes-sociais {
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     gap: 16px;
 }
 
+footer .container-footer .content-footer .redes-sociais a {
+    color: var(--secundary-neutral);
+}
+
+footer .container-footer .content-footer .redes-sociais a:active {
+    color: var(--primary-neutral);
+}
+
 .grid {
-    background-color: green;
-    margin-top: 84px;
+    /* background-color: green; */
+    border-top: 1px solid var(--secundary-neutral);
+    margin-top: 36px;
+    padding-top: 48px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
+.grid .box {
+    /* background-color: aquamarine; */
+    max-width: 255px;
+}
+
+.grid .box h2 {
+    /* background-color: red; */
+    margin-bottom: 36px;
+}
+
+/* .grid .box a {
+    background-color: brown;
+    margin-bottom: 16px;
+}
+
+.grid .box ul li a:last-child {
+    background-color: pink;
+} */
 
 footer i {
     font-size: 24px;
