@@ -1,6 +1,7 @@
 header {
     width: 100%;
-    height: 80px;
+    /* height: 80px; */
+    padding: 31px 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -10,19 +11,6 @@ header .logo-header {
     width: 111px;
     height: auto;
 }
-
-/* MENU HAMBURGUER */
-
-header .menu .to-close, .to-open {
-    display: none;
-    cursor: pointer;
-}
-
-header input {
-    display: none;
-}
-
-/* FIM DO MENU */
 
 header .list {
     display: flex;
@@ -52,6 +40,19 @@ header .list .btn-header {
     background-color: var(--primary-neutral);
     color: var(--tertiary-neutral);
 }
+
+/* MENU HAMBURGUER */
+
+header .menu .to-close, .to-open {
+    display: none;
+    cursor: pointer;
+}
+
+header input {
+    display: none;
+}
+
+/* FIM DO MENU */
 
 main {
     background: url(../img/Group\ 18.svg) no-repeat left -230px top 414px/697px 649px, url(../images/bg-pattern-intro-right-desktop.svg) no-repeat right -262px top -137px/649px 697px,linear-gradient(#2D2641 600px, #ffffff 600px);
@@ -217,18 +218,26 @@ footer .container-footer .content-footer .redes-sociais a:active {
 }
 
 .grid .box h2 {
+    /* background-color: rebeccapurple; */
+    color: var(--secundary-neutral);
+    font-size: 13px;
+}
+
+.grid .box ul li {
+    /* background-color: rosybrown; */
+    margin-top: 16px;
+    font-size: 13px;
+    color: var(--primary-neutral);
+}
+
+.grid .box ul li:first-child{
     /* background-color: red; */
-    margin-bottom: 36px;
+    margin-top: 36px;
 }
 
-/* .grid .box a {
-    background-color: brown;
-    margin-bottom: 16px;
+.grid .box ul li a:active {
+    text-decoration: underline;
 }
-
-.grid .box ul li a:last-child {
-    background-color: pink;
-} */
 
 footer i {
     font-size: 24px;
