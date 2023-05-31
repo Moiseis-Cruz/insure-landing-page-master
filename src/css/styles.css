@@ -142,13 +142,11 @@ main {
 .teste {
     background: var(--primary-color) url(../images/bg-pattern-how-we-work-desktop.svg) no-repeat right;
     width: 1110px;
-    /* padding: 69px 80px; */
     height: 250px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 158px;
-    /* gap: 314px; */
 }
 
 .teste .subtitle {
@@ -178,19 +176,16 @@ footer {
 }
 
 footer .container-footer {
-    /* background-color: cadetblue; */
     max-width: 1110px;
     margin: auto;
 }
 
 footer .container-footer .content-footer {
-    /* background-color: burlywood; */
     display: flex;
     justify-content: space-between;
 }
 
 footer .container-footer .content-footer .redes-sociais {
-    /* background-color: aqua; */
     display: flex;
     gap: 16px;
 }
@@ -204,7 +199,6 @@ footer .container-footer .content-footer .redes-sociais a:active {
 }
 
 .grid {
-    /* background-color: green; */
     border-top: 1px solid var(--secundary-neutral);
     margin-top: 36px;
     padding-top: 48px;
@@ -213,25 +207,21 @@ footer .container-footer .content-footer .redes-sociais a:active {
 }
 
 .grid .box {
-    /* background-color: aquamarine; */
     max-width: 255px;
 }
 
 .grid .box h2 {
-    /* background-color: rebeccapurple; */
     color: var(--secundary-neutral);
     font-size: 13px;
 }
 
 .grid .box ul li {
-    /* background-color: rosybrown; */
     margin-top: 16px;
     font-size: 13px;
     color: var(--primary-neutral);
 }
 
 .grid .box ul li:first-child{
-    /* background-color: red; */
     margin-top: 36px;
 }
 
