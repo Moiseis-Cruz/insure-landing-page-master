@@ -75,4 +75,12 @@
         margin: 32px auto 0;
         font: 700 13px 'Karla', sans-serif;
     }
+
+    .grid {
+        border-top: 1px solid var(--secundary-neutral);
+        margin-top: 36px;
+        padding-top: 48px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
