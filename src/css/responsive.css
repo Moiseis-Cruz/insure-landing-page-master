@@ -5,7 +5,8 @@
 
     header nav {
         z-index: 1;
-        /* background: var(--primary-color); */
+        background-color: aqua;
+        position: relative;
     }
     
     header nav .menu {
@@ -14,11 +15,15 @@
     
     header .menu .to-close {
         display: block;
+        position: absolute;
     }
     
     header .list {
         display: none;
         margin-top: 40px;
+        /* position: absolute;
+        top: 0;
+        right: 0; */
     }
 
     header .list li a {
