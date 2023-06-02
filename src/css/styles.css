@@ -112,7 +112,10 @@ main {
 }
 
 .about .container-about .subtitle {
-    font: 400 72px 'DM Serif Display', serif;
+    /* font: 400 72px 'DM Serif Display', serif; */
+    font-size: 72px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
     letter-spacing: -1px;
     padding-top: 64px;
 }
@@ -204,6 +207,7 @@ footer .container-footer .content-footer .redes-sociais a:active {
     padding-top: 48px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    /* background-color: red; */
 }
 
 .grid .box {
