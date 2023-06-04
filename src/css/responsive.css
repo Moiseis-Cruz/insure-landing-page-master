@@ -97,7 +97,22 @@
         width: 100%;
     }
 
-    
+    .teste {
+        /* background: var(--primary-color) url(../images/bg-pattern-how-we-work-desktop.svg) no-repeat right; */
+        width: 327px;
+        /* height: 250px; */
+        /* display: flex; */
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 140px;
+        background-color: red;
+    }
+
+    .teste .subtitle {
+        font-size: 40px;
+        line-height: 56px;
+    }
 
     footer {
         background: var(--tertiary-neutral) url(../images/bg-pattern-footer-desktop.svg) no-repeat;
