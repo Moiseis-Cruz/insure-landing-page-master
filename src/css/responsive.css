@@ -79,6 +79,7 @@
     .container-about {
         background-color: aqua;
         width: 327px;
+        text-align: center;
     }
 
     .about .container-about .subtitle {
@@ -89,10 +90,16 @@
     .list-container-about {
         margin-top: 96px;
         display: flex;
-        gap: 30px;
+        gap: 56px;
         flex-direction: column;
+    }
+    
+    .list-container-about li {
+        width: 100%;
         background-color: red;
     }
+
+    
 
     footer {
         background: var(--tertiary-neutral) url(../images/bg-pattern-footer-desktop.svg) no-repeat;
