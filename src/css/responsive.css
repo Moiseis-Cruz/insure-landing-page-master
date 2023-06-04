@@ -77,7 +77,6 @@
     }
 
     .container-about {
-        background-color: aqua;
         width: 327px;
         text-align: center;
     }
@@ -96,7 +95,6 @@
     
     .list-container-about li {
         width: 100%;
-        background-color: red;
     }
 
     
