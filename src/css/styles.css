@@ -56,6 +56,8 @@ header input {
 
 main {
     background: url(../img/Group\ 18.svg) no-repeat left -230px top 414px/697px 649px, url(../images/bg-pattern-intro-right-desktop.svg) no-repeat right -262px top -137px/649px 697px,linear-gradient(#2D2641 600px, #ffffff 600px);
+    padding: 0 165px;
+    /* background-color: red; */
 }
 
 .hero {
@@ -108,7 +110,7 @@ main {
 
 .container-about {
     color: #2C2830;
-    width: 1110px;
+    width: 100%;
 }
 
 .about .container-about .subtitle {
@@ -144,7 +146,7 @@ main {
 
 .teste {
     background: var(--primary-color) url(../images/bg-pattern-how-we-work-desktop.svg) no-repeat right;
-    width: 1110px;
+    width: 100%;
     height: 250px;
     display: flex;
     align-items: center;
