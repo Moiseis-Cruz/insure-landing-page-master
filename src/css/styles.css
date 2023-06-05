@@ -177,12 +177,13 @@ footer {
     background: var(--tertiary-neutral) url(../images/bg-pattern-footer-desktop.svg) no-repeat;
     width: 100%;
     margin-top: 150px;
-    padding: 64px 0;
+    padding: 64px 165px;
 }
 
 footer .container-footer {
-    max-width: 1110px;
+    width: 100%;
     margin: auto;
+    background-color: red;
 }
 
 footer .container-footer .content-footer {
@@ -209,7 +210,6 @@ footer .container-footer .content-footer .redes-sociais a:active {
     padding-top: 48px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* background-color: red; */
 }
 
 .grid .box {
