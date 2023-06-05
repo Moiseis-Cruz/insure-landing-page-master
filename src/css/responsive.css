@@ -61,7 +61,6 @@
     
     .hero-container {
         width: 327px;
-        /* background-color: red; */
         color: var(--tertiary-neutral);
     }
 
@@ -79,7 +78,6 @@
     }
 
     .container-about {
-        /* width: 327px; */
         text-align: center;
     }
 
@@ -100,15 +98,11 @@
     }
 
     .teste {
-        /* background: var(--primary-color) url(../images/bg-pattern-how-we-work-desktop.svg) no-repeat right; */
+        background: var(--primary-color) url(../images/bg-pattern-how-we-work-desktop.svg) no-repeat right;
         width: 327px;
-        /* height: 250px; */
-        /* display: flex; */
-        /* align-items: center; */
         justify-content: center;
         flex-direction: column;
         margin-top: 140px;
-        /* background-color: red; */
     }
 
     .teste .subtitle {
@@ -118,7 +112,6 @@
 
     footer {
         background: var(--tertiary-neutral) url(../images/bg-pattern-footer-desktop.svg) no-repeat;
-        /* width: 100%; */
         margin-top: 140px;
         padding: 88px 24px;
     }
@@ -133,7 +126,6 @@
 
     .grid {
         text-align: center;
-        /* width: ; */
         margin-top: 40px;
         padding-top: 40px;
         grid-template-columns: 1fr;
@@ -141,7 +133,6 @@
     }
 
     .box {
-        /* background-color: palevioletred; */
         margin-top: 40px;
     }
 }
