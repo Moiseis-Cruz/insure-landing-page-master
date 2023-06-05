@@ -2,8 +2,9 @@ header {
     width: 100%;
     padding: 31px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    background-color: red;
 }
 
 header .logo-header {
@@ -139,23 +140,23 @@ main {
     line-height: 26px;
 }
 
-.constent-about {
+.pattern-about {
     background: var(--primary-color) url(../images/bg-pattern-how-we-work-desktop.svg) no-repeat right;
     width: 100%;
-    height: 250px;
+    min-height: 250px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 158px;
 }
 
-.constent-about .subtitle {
+.pattern-about .subtitle {
     color: #ffffff;
     font: 400 56px 'DM Serif Display', serif;
     line-height: 56px;
 }
 
-.constent-about .btn-about {
+.pattern-about .btn-about {
     border: 1.5px solid ;
     width: 160px;
     height: 40px;
