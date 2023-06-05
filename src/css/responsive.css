@@ -97,7 +97,7 @@
         width: 100%;
     }
 
-    .teste {
+    .constent-about {
         background: var(--primary-color) url(../images/bg-pattern-how-we-work-desktop.svg) no-repeat right;
         width: 327px;
         justify-content: center;
@@ -105,7 +105,7 @@
         margin-top: 140px;
     }
 
-    .teste .subtitle {
+    .constent-about .subtitle {
         font-size: 40px;
         line-height: 56px;
     }

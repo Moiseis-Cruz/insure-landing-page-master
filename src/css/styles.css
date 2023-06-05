@@ -139,7 +139,7 @@ main {
     line-height: 26px;
 }
 
-.teste {
+.constent-about {
     background: var(--primary-color) url(../images/bg-pattern-how-we-work-desktop.svg) no-repeat right;
     width: 100%;
     height: 250px;
@@ -149,13 +149,13 @@ main {
     margin-top: 158px;
 }
 
-.teste .subtitle {
+.constent-about .subtitle {
     color: #ffffff;
     font: 400 56px 'DM Serif Display', serif;
     line-height: 56px;
 }
 
-.teste .btn-about {
+.constent-about .btn-about {
     border: 1.5px solid ;
     width: 160px;
     height: 40px;
@@ -178,7 +178,6 @@ footer {
 footer .container-footer {
     width: 100%;
     margin: auto;
-    background-color: red;
 }
 
 footer .container-footer .content-footer {
