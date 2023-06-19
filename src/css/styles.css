@@ -55,7 +55,7 @@ header input {
 
 main {
     background: url(../img/Group\ 18.svg) no-repeat left -230px top 414px/697px 649px, url(../images/bg-pattern-intro-right-desktop.svg) no-repeat right -262px top -137px/649px 697px,linear-gradient(#2D2641 600px, #ffffff 600px);
-    padding: 0 165px;
+    /* padding: 0 165px; */
 }
 
 .hero {
@@ -99,6 +99,12 @@ main {
     color: var(--primary-neutral);
 }
 
+.image-intro {
+    width: 100%;
+    max-width: 540px;
+    height: auto;
+}
+
 .about {
     margin-top: 150px;
     display: flex;
@@ -109,6 +115,11 @@ main {
 .container-about {
     color: #2C2830;
     width: 100%;
+    max-width: 1110px;
+}
+
+.container-about .icon {
+    width: 86px;
 }
 
 .about .container-about .subtitle {
@@ -142,6 +153,7 @@ main {
 .pattern-about {
     background: var(--primary-color) url(../images/bg-pattern-how-we-work-desktop.svg) no-repeat right;
     width: 100%;
+    max-width: 1110px;
     min-height: 250px;
     display: flex;
     align-items: center;
@@ -183,6 +195,11 @@ footer .container-footer {
 footer .container-footer .content-footer {
     display: flex;
     justify-content: space-between;
+}
+
+footer .content-footer .img-footer {
+    width: 111px;
+    height: 18px;
 }
 
 footer .container-footer .content-footer .redes-sociais {
