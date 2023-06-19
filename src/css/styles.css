@@ -106,6 +106,7 @@ main {
 }
 
 .about {
+    padding: 0 10px;
     margin-top: 150px;
     display: flex;
     flex-direction: column;
@@ -178,6 +179,11 @@ main {
     align-items: center;
     justify-content: center;
     color: #ffffff;
+}
+
+.pattern-about .btn-about:active {
+    background-color: #ffffff;
+    color: var(--primary-color);
 }
 
 footer {
