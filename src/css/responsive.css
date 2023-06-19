@@ -50,7 +50,7 @@
 
     main {
         background: url(../images/bg-pattern-intro-left-desktop.svg) no-repeat left -503px top 414px/697px 649px, url(../images/bg-pattern-intro-right-desktop.svg) no-repeat right -262px top -137px/649px 697px,linear-gradient(#2D2641 951px, #ffffff 951px);
-        padding: 0 24px;
+        /* padding: 0 24px; */
     }
 
     .hero {
@@ -100,6 +100,7 @@
 
     .pattern-about {
         background: var(--primary-color) url(../images/bg-pattern-how-we-work-mobile.svg) no-repeat right top;
+        width: 327px;
         height: 344px;
         text-align: center;
         justify-content: center;
