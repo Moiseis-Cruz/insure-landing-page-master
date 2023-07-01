@@ -4,12 +4,10 @@
     }
 
     header nav {
-        position: relative;
+        position: absolute;
+        top: 24px;
+        right: 24px;
     }
-    
-    /* header nav .menu {
-        background-color: royalblue;
-    } */
     
     header .menu-hamburguer .to-close {
         display: block;
@@ -17,10 +15,12 @@
     
     header .list {
         display: none;
+
     }
     
     header .list li a {
         color: var(--tertiary-neutral);
+        font-size: 20px;
     }
     
     header input:checked ~ label .to-open {
@@ -32,17 +32,26 @@
     header input:checked ~ .list {
         display: flex;
         flex-direction: column;
-        margin-top: 56px;
-        /* position: absolute; */
-        /* top: 56px; */
-        /* right: 0; */
-        /* width: 375px; */
-        /* background: var(--primary-neutral) url(../images/bg-pattern-mobile-nav.svg) no-repeat bottom; */
-        background-color: red;
+        gap: 24px;
+        padding-top: 40px;
+        position: absolute;
+        top: 42px;
+        right: -24px;
+        width: 375px;
+        height: 587px;
+        background: var(--primary-neutral) url(../images/bg-pattern-mobile-nav.svg) no-repeat bottom;
     }
     
     header .list .btn-header {
         border: 1px solid #ffffff;
+        width: 327px;
+        height: 56px;
+        line-height: 56px;
+    }
+
+    .list .btn-header:active {
+        background-color: var(--tertiary-neutral);
+        color: var(--primary-neutral);
     }
 
     header input:checked ~ label .to-close {
