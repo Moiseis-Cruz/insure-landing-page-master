@@ -57,7 +57,6 @@ header input {
 
 main {
     background: url(../img/Group\ 18.svg) no-repeat left -230px top 414px/697px 649px, url(../images/bg-pattern-intro-right-desktop.svg) no-repeat right -262px top -137px/649px 697px,linear-gradient(#2D2641 600px, #ffffff 600px);
-    /* padding: 0 165px; */
 }
 
 .hero {
