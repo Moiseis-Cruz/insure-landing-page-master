@@ -11,7 +11,7 @@
         background-color: royalblue;
     } */
     
-    header .menu .to-close {
+    header .menu-hamburguer .to-close {
         display: block;
     }
     
@@ -33,9 +33,14 @@
         display: flex;
         flex-direction: column;
         margin-top: 56px;
-        background: var(--primary-neutral) url(../images/bg-pattern-mobile-nav.svg) no-repeat bottom;
+        /* position: absolute; */
+        /* top: 56px; */
+        /* right: 0; */
+        /* width: 375px; */
+        /* background: var(--primary-neutral) url(../images/bg-pattern-mobile-nav.svg) no-repeat bottom; */
+        background-color: red;
     }
-
+    
     header .list .btn-header {
         border: 1px solid #ffffff;
     }
@@ -50,7 +55,6 @@
 
     main {
         background: url(../images/bg-pattern-intro-left-desktop.svg) no-repeat left -503px top 414px/697px 649px, url(../images/bg-pattern-intro-right-desktop.svg) no-repeat right -262px top -137px/649px 697px,linear-gradient(#2D2641 951px, #ffffff 951px);
-        /* padding: 0 24px; */
     }
 
     .hero {
