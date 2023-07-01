@@ -42,9 +42,11 @@ header .list .btn-header {
 
 /* MENU HAMBURGUER */
 
-header .menu .to-close, .to-open {
+header .menu-hamburguer .to-close, .to-open {
     display: none;
     cursor: pointer;
+    width: 32px;
+    height: 32px;
 }
 
 header input {
